@@ -1,0 +1,10 @@
+package stack;
+
+public class StackExaception  extends Exception{
+  
+	public StackExaception(String message)
+	{
+		super(message);
+		//super calling the prent class int the 
+	}
+}

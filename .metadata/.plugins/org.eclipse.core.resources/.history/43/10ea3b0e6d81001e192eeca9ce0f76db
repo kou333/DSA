@@ -1,0 +1,19 @@
+package stack;
+
+public class DynamicStack {
+	
+	public DynamicStack() {
+		
+		super();
+		// it will call custom stack.
+		// it will call cunstructor in parent 
+		//calss which does not take any argument.
+	    //default constructor.
+		
+		public DynamicStack(int size) 
+		{
+		   super(size);	
+		}
+	}
+
+}

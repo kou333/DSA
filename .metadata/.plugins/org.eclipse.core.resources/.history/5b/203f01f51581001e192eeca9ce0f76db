@@ -1,0 +1,38 @@
+package stack;
+
+import java.util.*;
+import java.util.Stack;
+public class newStake{
+
+	public static void main(String [] args) 
+	{
+//		Stack<Integer> stack= new Stack<>();// this is generic
+//		//Stack<Integer> stack [HEAP MEMORY]= new Stack<>();[STACK MEMORY]
+//		stack.push(34);
+//		stack.push(45);
+//		stack.push(2);
+//		stack.push(9);
+//		stack.push(18);
+//		
+//	System.out.println(stack.pop());	
+//	System.out.println(stack.pop());	
+//	System.out.println(stack.pop());	
+//	System.out.println(stack.pop());	
+//	System.out.println(stack.pop());	
+//		
+//		//QUEUE IS AN INTER FACE
+		
+		Queue<Integer>queue =new LinkedList<>();
+		queue.add(3);
+		queue.add(6);
+		queue.add(5);
+		queue.add(19);
+		queue.add(1);
+		
+		System.out.println(queue.peek());
+		
+		
+		
+	}
+}
+              
